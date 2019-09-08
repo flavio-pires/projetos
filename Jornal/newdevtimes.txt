@@ -1,0 +1,22 @@
+#3234cd principal  -------- #7D32CD   3281CD 
+
+3281CD   #3234CD #32CDCB  ---- Economia, analoga Flavio
+
+
+#CD3281 ---- Matheus E Entretenimento
+
+#32CD7E---- esporte matheus m
+
+
+#CDCB32 --- thaís  Politica
+
+
+TITULO   font-family: ABeeZee;
+
+escrita  font-family: ABeeZee;
+
+<link href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap" rel="stylesheet">
+
+NEW DEV TIMES
+
+                 v  https://fonts.google.com/?query=Journal

@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'ABeeZee';
+	background-color: #fff;
+	/*background-image: url(../img/logodev.png);
+	background-repeat: no-repeat;
+	background-position: top center; */
+
+}
+
+header{
+	display: flex;	
+	height: 2.75em;
+	align-items: center;
+	justify-content: center;
+	align-items: flex-start;
+
+}
+/*********************** INICIO DOS LOGOS  *******************/
+.navbody{
+	width: 750px;
+	height: 650px;
+	margin: 300px auto;
+		
+}
+.logodev{
+	position: relative;
+}
+
+
+.pipologo{
+	width: 100%;
+	height: 100%;
+}
+.cifraologo{
+	width: 100%;
+	height: 100%;
+}
+.casalogo{
+	width: 100%;
+	height: 100%;
+}
+.polilogo{
+	width: 100%;
+	height: 100%;
+}
+.troflogo{
+	width: 100%;
+	height: 100%;
+}
+/*********************** INICIO DOS LOGOS *******************/
+
+
+
+
+/*********************** CLICKS NOS BOTOES DO NAV *******************/
+.nav_tabs{
+	width: 850px;
+	height: 1000px;
+	margin: 100px auto;
+	margin-top: 10%;
+	position: relative;
+}
+.nav_tabs ul{
+	list-style: none;
+}
+.nav_tabs ul li{
+	float: left;
+}
+.nav_tabs label.tab1{
+	width: 15px;
+	padding: 25px;
+	background-color: #3234cd;
+	display: block;
+	color: #fff;
+	cursor: pointer;
+	text-align: center; 
+}
+.nav_tabs label.tab2{
+	width: 15px;
+	padding: 25px;
+	background-color: #3281CD;
+	display: block;
+	color: #fff;
+	cursor: pointer;
+	text-align: center; 
+}
+
+.nav_tabs label.tab3{
+	width: 15px;
+	padding: 25px;
+	background-color: #CDCB32;
+	display: block;
+	color: #fff;
+	cursor: pointer;
+	text-align: center; 
+}
+.nav_tabs label.tab4{
+	width: 15px;
+	padding: 25px;
+	background-color:#32CD7E;
+	display: block;
+	color: #fff;
+	cursor: pointer;
+	text-align: center; 
+}
+.nav_tabs label.tab5{
+	width: 15px;
+	padding: 25px;
+	background-color: #CD3281;
+	display: block;
+	color: #fff;
+	cursor: pointer;
+	text-align: center; 
+}
+.rd_tabs{
+	display: none;
+}
+.rd_tabs:checked ~ label{
+background-color:brown;
+}
+/*********************** FIM DOS CLICKS NOS BOTOES DO NAV *******************/
+
+/*********************** INICIO CONTEÚDO DA PÁGINA **************************/
+
+h1 {
+	font-family: 'ABeeZee';
+	background-color: #3281CD;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5em;
+}
+
+.manchetes {
+	color: #3281CD;
+	font-family: 'ABeeZee';
+	font-size: 1.5em;
+	font-weight: bold;
+	
+}
+
+.manchetes div > p {
+	margin-top: -1em;
+    text-shadow: -3px -3px 0 #fff,
+                -3px -3px 0 #fff,
+                -3px 3px 0 #fff,
+                3px 3px 0 #fff;
+}

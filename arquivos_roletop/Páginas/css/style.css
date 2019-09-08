@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Calibri', 'Open Sans', sans-serif;
+}
+
+/************************************************************
+                        NAV
+************************************************************/
+h1 > img {
+    display: flex;
+    padding: 0.5em 0 0 1em;
+    width: 17%;
+    float: left;
+    margin: 0;
+}
+
+nav {
+    background-color: #7d0093;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+nav #bt-mobile-menu {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 1.5em;
+    list-style-type: none;
+}
+
+nav ul > li {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul > li > a {
+	display: block;
+	padding: 1.5em;
+    text-decoration: none;
+    color: #ffc600;
+    font-weight: bold;
+}
+
+nav ul > li > a:hover {
+    background-color: #ffc600;
+    color: #fff;
+}
+
+a.active {
+    color: #fff;
+}
+
+/************************************************************
+                        NAV
+************************************************************/
+
+#fundo-area > img {
+    padding: 5em 0 0 0;
+}
+
+#historia {
+    padding: 1.5em 0 0 0;
+    color: #7d0093;
+}
+
+#infraestrutura {
+    padding: 1em 0 0 0;
+    font-size: 1.5em;
+    color: #7d0093;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.planta-baixa > h2 {
+    justify-content: center;
+}
+
+footer {
+    background-color: #7d0093;
+    color: #ffc600;
+    padding: 1em 0 0 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ffc600;
+}
+
+.section-container {
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
+.flex-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 625px) {
+
+    nav #bt-mobile-menu {
+        display: block;
+    }
+
+    nav .bt-common-menu {
+        display: none;
+    }
+
+    nav .bt-common-menu.active {
+        display: block;
+    }
+
+    nav ul.mobile-mode {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #historia .flex-group {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        vertical-align: top;
+    }
+}
