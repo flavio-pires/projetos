@@ -1,44 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rolê Top - Espaço de eventos, festas e casamentos</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
-
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="logos/logo_roletop.png">
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="section-container">
-                <h1>
-                    <img src="logos/logo_roletop.png"
-                        alt="Logotipo do Rolê Top - Espaço de eventos, festas, shows, formaturas e casamentos"
-                        title="Rolê Top - Espaço de eventos, festas, shows, formaturas e casamentos"></img>
-                </h1>
-                <ul id="menu">
-                    <li id="bt-mobile-menu">
-                        <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                    </li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html" class="active">Home</a>
-                    </li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="eventos.html">Eventos</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="servicos.html">Serviços</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="fotos.html">Fotos</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="contato.html">Contato</a></li>
-                    <li><a id="bt-faca_sua_reserva" href="contato.html">Faça sua reserva</a></li>
-                </ul>
-            </div>
-        </nav>
-        <section id="fundo-area">
-            <img src="galpão/balada_2.jpg" alt="Imagem de um evento no Rolê Top" title="Evento no Rolê Top">
-        </section>
-    </header>
+    <nav>
+        <h1>Rolê Top</h1>
+        <img src="logos/logo_roletop.png" alt="Logo Rolê Top" title="Rolê Top">
+        <ul>
+            <li id="bt-mobile-menu">
+                <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html" class="active"></a> Home</li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="eventos.html">Eventos</a></li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="servicos.html">Serviços</a></li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="fotos.html">Fotos</a></li>
+            <li><a id="bt-faca_sua_reserva" href="contato.html">Faça sua reserva</a></li>
+        </ul>
+    </nav>
 
     <main>
         <h2><u>Login</u></h2>
@@ -66,9 +55,64 @@
             <div>
                 <label for="password">Senha</label>
                 <br>
-                <input type="password" id="password">
+                <input type="password" id="password" required>
             </div>
-
+            <div>
+                <label for="nome">Nome</label>
+                <br>
+                <input type="text" id="text">
+            </div>
+            <div>
+                <label for="cpf">CPF</label>
+                <br>
+                <input type="number" id="number">
+            </div>
+            <div>
+                <label for="telefone">Telefone</label>
+                <br>
+                <input type="number" id="telefone">
+            </div>
+            <div>
+                <label for="nome_evento">Nome do Evento</label>
+                <br>
+                <input type="text" id="nome_evento">
+            </div>
+            <div>
+                <label for="data_evento">Data do Evento</label>
+                <br>
+                <input type="date" id="data_evento">
+            </div>
+            <div>
+                <label for="quantidade">Quantidade de Pessoas</label>
+                <br>
+                <input type="number" id="quantidade">
+            </div>
+            <div>
+                <label for="tipo_evento">Tipo de Evento</label>
+                <br>
+                <input type="checkbox" value="Público"> Público
+                <input type="checkbox" value="Privado"> Privado
+            </div><br>
+            <div>
+                <input type="checkbox" value="Iluminação"> Contratar serviço de iluminação
+                <input type="checkbox" value="Som"> Contratar serviço de som
+            </div><br>
+            <div>
+                <label for="descrição">Observações/Descrição do evento</label>
+                <br>
+                <input type="text" id="descrição">
+            </div>
+            <div id="pagamento">
+                <p>Formas de Pagamento</p>
+                <p>Cartão de Crédito</p>
+                <p>Boleto Bancário</p>
+                <p>Transferência</p>
+            </div>
+            <div>
+                <input type="checkbox" value="termos"> Aceito os termos e condições de uso
+            </div>
+            <p>Valor inicial do aluguel do espaço - R$ 10.000,00</p>
+            <input type="submit" value="Enviar" /> 
 
     </main>
 </body>
